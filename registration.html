@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="image/resitration_ion.png">
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="inputBox">
+            <h2 align="center">Sign up</h2>
+            <form align="center" autocomplete="off" onsubmit="registerUser(event)">
+                <input type="text" placeholder="Name" class="ent" id="name" required>
+                <input type="email" placeholder="Email" class="ent" id="email" required>
+                <input type="password" placeholder="Password" class="ent" id="pas1" required>
+                <input type="password" placeholder="Confirm password" class="ent" id="pas2" required>
+                <input type="text" placeholder="Phone Number" class="ent" id="phno" required>
+                <input type="button" value="CREATE" class="bt" onclick="registration()"/>
+                <button type="reset" class="bt">Reset</button>
+            </form>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>
