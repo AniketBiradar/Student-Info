@@ -84,8 +84,8 @@ body::before {
     filter: blur(15px);
 }
 .inputBox {
-    position: relative; /* Ensure proper positioning */
-    z-index: 1; /* Bring the input box above the pseudo-elements */
+    position: relative;
+    z-index: 1; 
 }
 h2 {
     text-align: center;
@@ -125,6 +125,6 @@ h2 {
 }
 .resiter {
     color: white;
-    margin-top: 10px; /* Adjust the margin as needed */
-    display: block; /* Ensures the anchor tag takes full width */
+    margin-top: 10px; 
+    display: block; 
 }
